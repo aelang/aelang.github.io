@@ -4,7 +4,7 @@ title: Research & projects
 permalink: /research/
 order: 1
 ---
-#### [Word embeddings: A very quick introduction](..research/word-embeddings)
+#### [Word embedding models: A very quick introduction](..research/word-embeddings)
 
 
 #### [Working from Scraps](http://digitaldecoupage.llc.ed.ac.uk)
