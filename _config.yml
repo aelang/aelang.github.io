@@ -18,7 +18,7 @@ email:
 description: adventures at the interface of literature & data
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aelang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "aelang.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: a_e_lang
 github_username:  aelang
 
