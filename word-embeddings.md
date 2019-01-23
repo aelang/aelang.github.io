@@ -13,7 +13,8 @@ To understand a word embedding model, you can begin by thinking of it as a mathe
 
 If you want to represent these relationships between words on the page or the screen, the model's dimensionality needs to be reduced still further to two or three dimensions using techniques for dimensionality reduction such as t-SNE ([t-distributed stochastic neighbor embedding]( https://lvdmaaten.github.io/tsne/)), as shown below. 
 
-xx image 
+<img style="float:left;border:10px solid white" src="/WordEmbeddingstSNE.png">
+
 > Plot showing a vector space model trained on the digitized text of the twentieth-century Canadian periodical *The Western Home Monthly* reduced down to two dimensions using tSNE (with perplexity of 70).
 
 The basic premise of such a visualization is this: if words appear in spatial proximity to other words in these reduced-dimensionality representations, this means that they occur in the corpus in similar contexts, ie. near the same sorts of words. In the plot above, you will notice a collection of common verbs clustering together at the bottom of the plot in the middle (*was had thought were are told knew saw came looked went*), some gendered terms towards the top right (*girl boy man woman women girls himself him he*), and at the top left, a collection of numbers and letters that suggest OCR errors or artefacts of digitization (so in this case it is identifying not a semantic resemblance, but another kind of resemblance – an error). The important thing to understand is that there is no semantic work going on behind the scenes, nothing telling the model that *woman* and *women* are the singular and plural forms of the same noun: the model puts these words into a spatial arrangement based only on how often and to what extent they appear near similar words. 
