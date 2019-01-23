@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Word embedding models: a very short introduction
 permalink: /research/word-embeddings/
 order: 1
 ---
