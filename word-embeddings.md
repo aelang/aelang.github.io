@@ -13,6 +13,7 @@ To understand a word embedding model, you can begin by thinking of it as a mathe
 
 If you want to represent these relationships between words on the page or the screen, the model's dimensionality needs to be reduced still further to two or three dimensions using techniques for dimensionality reduction such as t-SNE ([t-distributed stochastic neighbor embedding]( https://lvdmaaten.github.io/tsne/)), as shown below. 
 
+
 <img style="float:left;border:10px solid white" src="/WordEmbeddingstSNE.png">
 
 > Plot showing a vector space model trained on the digitized text of the twentieth-century Canadian periodical *The Western Home Monthly* reduced down to two dimensions using tSNE (with perplexity of 70).
@@ -24,18 +25,14 @@ To understand why spatial proximity in a vector space model is relevant, it's he
 All this is more easily understood with actual examples rather than in the abstract, so here's an example which uses a toy corpus of sentences from the *Western Home Monthly* (*WHM*): 
 
  
-xx image
+<img style="float:left;border:10px solid white" src="/WordVectorExample.png">
 
 > This simplified example, which I have adapted from [Erk's useful article](https://doi:10.1002/lnco.362), shows how the vector of the term literacy would be obtained from the toy corpus. The sample sentences from the WHM are at the left, and from these are derived the context word counts in the middle, with the corresponding vector shown at the right. The toy corpus has been tokenized (ie. different forms of a root word have been reduced to the same root word), and word matching has been carried out between root words, so that, for example, *national* matches *nations* and *believes* matches *believing*. 
 
 This list of numbers at the right - ie. the vector of the word *literacy* - can then be used as co-ordinates to represent *literacy* as a point in multidimensional space. Just as a point with the co-ordinates (2, 6) needs two dimensions to be plotted, and a point with the co-ordinates (2, 6, 4) needs three dimensions, so a point in multidimensional space requires as many dimensions as there are numbers in the vector. (Grasping how entities are related in high-dimensional space via intuition might seem beyond the grasp of most humanities scholars, but it is a simple enough matter for something like R to assemble in your computer's memory.) And, the crucial final step: once a word's location in multi-dimensional space has been plotted, its vector can be represented as a line on a graph moving from the origin—where the axes of the graph cross—to the point designated by the co-ordinates, as shown below:
 
  
-
-
-xx image
-
-
+<img style="float:left;border:10px solid white" src="/WordEmbeddingModelWHMLiteracy.png">
 
 > Here, the similarity between *literacy* and *test* – calculated algebraically as the cosine of angle ⍺ – is closer than the cosine of angle β between *literacy* and *world*. For ease of visualization, multi-dimensional space has been reduced to two dimensions. Figure is adapted from [Erk](https://doi:10.1002/lnco.362). 
 
