@@ -1,0 +1,926 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+<html>
+
+
+
+<head>
+
+
+
+<title>Mapping Memoirs of Montparnasse</title>
+
+
+
+
+
+
+
+<script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script> 
+
+ 	
+
+
+
+<script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/time/time-extension.js"></script> 
+
+
+
+
+
+<script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/map/map-extension.js?gmapkey= ABQIAAAAmvpSZyPXdxgDLBixbVYoABQDS-zXibYIWbhWSCAfuvx09aH-FRRO7kIlDwqSuaW8kxujC3lfBLTA1w"></script><!--This script adds in the map extension for Exhibit. Get your own Google Maps API key at http://code.google.com/apis/maps/signup.html -->
+
+
+
+
+
+
+
+
+
+
+
+<link 	rel="exhibit/data" 
+
+
+
+      	type="application/jsonp"
+
+
+
+      	href=" https://spreadsheets.google.com/feeds/list/0Au7lliaEmIOcdDJrc0VybWU0bTN2NndwUmtKc0t5ZGc/od6/public/basic?alt=json-in-script"
+
+
+
+      	ex:converter="googleSpreadsheets" /> <!-- This whole group, from <link> on, is what tells the page to get the information for the Exhibit from the Google spreadsheet. You paste the link from the page information to replace XXX in href="http://XXX?alt=json-in-script". Make sure you don't erase the "?alt=json-in-script" if you use this template to make a new timeline. -->
+
+
+
+
+
+<script>
+
+
+
+        function myTimelineConstructor(div, eventSource) {
+
+
+
+            var theme = Timeline.ClassicTheme.create();
+
+
+
+            theme.Person.bubble.width = 500; /*This field controls either the size of the bubble or the image within the bubble. Its original value was "320". I upped it to 400 to get the Men Without Women picture to show up correctly. */
+
+
+
+            theme.Person.bubble.height = 500;
+
+
+
+            theme.ether.backgroundColors[1] = theme.ether.backgroundColors[0];/*The two values in this line control the background color of the timeline. I'm not sure if they are connected to each other or if they operate independently.  */
+
+
+
+            var d = Timeline.DateTime.parseGregorianDateTime("1928")/*This is the figure that controls what date the Timeline centers on when it first loads.*/
+
+
+
+            var bandInfos = [
+
+
+
+                Timeline.createBandInfo({
+
+
+
+                    width:          "10%", 
+
+
+
+                    intervalUnit:   Timeline.DateTime.YEAR, 
+
+
+
+                    intervalPixels: 20,
+
+
+
+                    date:           d,
+
+
+
+                    theme:          theme
+
+
+
+                }),/*This and the two that follow tell the Timeline script to create one band of the timeline. You can have up to four bands given the current code. The width value tells you the relative percentage of the entire timeline that this one band will take up. the intervalUnit value tells you how that particular band should be divided. For more options, see http://simile.mit.edu/wiki/Exhibit/2.0/Timeline_View. The intervalPixels value tells the timeline how much space to create between the divisions of the band. You can control each band's intervalPixels value to a point. But after that, you run up against limits. I don't know what the date and theme values do. */
+
+
+
+                Timeline.createBandInfo({
+
+
+
+                    width:          "70%", 
+
+
+
+                    intervalUnit:   Timeline.DateTime.YEAR, /*This field and the others like it control the divisions of time within the different bands of the timeline. They do not all have to have the same number. */
+
+
+
+                    intervalPixels: 65,
+
+
+
+                    eventSource:    eventSource,
+
+
+
+                    date:           d,
+
+
+
+                    theme:          theme
+
+
+
+                }),
+
+
+
+                Timeline.createBandInfo({
+
+
+
+                    width:          "20%", 
+
+
+
+                    intervalUnit:   Timeline.DateTime.DECADE, 
+
+
+
+                    intervalPixels: 100,
+
+
+
+                    eventSource:    eventSource,
+
+
+
+                    date:           d,
+
+
+
+                    overview:       true,
+
+
+
+                    theme:          theme
+
+
+
+                })
+
+
+
+            ];
+
+
+
+			
+
+
+
+            bandInfos[0].etherPainter = new Timeline.YearCountEtherPainter({
+
+
+
+                startDate:  "December 15 1909 00:00:00 GMT",
+
+
+
+                multiple:   5,
+
+
+
+                theme:      theme
+
+
+
+            });/*This element of the timeline tells the script to number of one of the bands differently. The value of bandInfos controls which band is numbered differently. A value of 1 would have changed the middle band. A value of 2 would have changed the lower band. The value of startDate tells the Timeline where to start renumbering. The value of multiple controls the subdivision of the renumbered band. I use this band to show how old Victoria is at certain points, divided in intervals of 5 years.*/
+
+
+
+			
+
+
+
+            bandInfos[0].syncWith = 1;
+
+
+
+            bandInfos[0].highlight = false
+
+
+
+			
+
+({
+
+
+
+                })
+
+
+
+            ;/*This element creates the color on the top band of the timeline. Together with the renumbering (controlled in a previous element), it makes it easy to see how old Victoria is at certain times. The startDate and endDate values control when the highlighting starts and ends. It appears that you have to use "MMM DD YYYY" format, with months in letters, rather than the ISO 8601 format that we use in the spreadsheet. The startLabel and endLabel values control what words appear before and after the highlighting. The color value controls what color the highlighted field is. You can use hexidecimal codes or color names. The opacity value controls how opaque/dark the highlighting is. */
+
+
+
+            
+
+
+
+            bandInfos[2].syncWith = 1; /*This line and the one 15 rows or so above tells the timeline to sync the top and bottom bands with the middle band. If you don't have these, the bands won't scroll together. */
+
+
+
+            bandInfos[2].highlight = true; /*The value of this field is what creates the lighter box in the lowest timeline band that allows you to see where you are relative to the whole timeline. I could create a similar box in the top band 15 lines or so above by changing the value of bandInfos[0].highlight to true. With the color of the decorator, however, it is difficult to see the highlighted area. */
+
+
+
+            
+
+
+
+            div.style.height = "400px";/*This field controls the height of the timeline */
+
+
+
+            return Timeline.create(div, bandInfos, Timeline.HORIZONTAL);
+
+
+
+        }
+
+
+
+    </script><!--If you don't need 3 or 4 bands in a timeline or any funky numbering or decorating, then there is no need to include this script.  -->
+
+
+
+
+
+
+
+<style>
+
+
+
+      body {
+
+
+
+	font-family: Palatino Linotype, Georgia, Trebuchet MS, Tahoma, Arial, Helvetica, sans serif;
+
+
+
+	font-size:   9pt;
+
+
+
+	margin:      3em;
+
+
+
+	background-color: #CCCCCC; /*--This is where you control the background color of the page. */
+
+
+
+	color:#555555;
+
+
+
+}
+
+
+
+      a {
+
+
+
+	  color: #537F93;}  
+
+
+
+		table {
+
+
+
+            font-size: 100%;
+
+
+
+        }
+
+
+
+        div.a-lens {
+
+
+
+            width:   500px; 
+
+
+
+            padding: 0;
+
+
+
+            margin:  0;
+
+
+
+        }
+
+
+
+        img.photo {
+
+
+
+            float: right;
+
+
+
+        }
+
+
+
+
+
+
+
+body,td,th {
+
+
+
+	color: #383735;
+
+
+
+}
+
+
+
+a:link {
+
+
+
+	color: #1B9DA7;
+
+
+
+}
+
+
+
+a:visited {
+
+
+
+	color: #645681;
+
+
+
+}
+
+
+
+</style>
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23824986-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
+<h1><p style="text-align: center;">Mapping John Glassco's <em>Memoirs of Montparnasse</em></p></h1>
+
+
+
+
+
+
+
+<p style="text-align: center;">This timeline and map are populated dynamically with data from a <a href=" http://spreadsheets.google.com/pub?key=0Au7lliaEmIOcdDJrc0VybWU0bTN2NndwUmtKc0t5ZGc&hl=en&output=html" target="_blank">Google Spreadsheet</a>. Best viewed with Mozilla or Chrome.</p> 
+
+
+
+<div ex:role="coder" ex:coderClass="Color" id="Person-colors">
+
+
+	<span ex:color="#9400D3">Glassco, John</span>
+    
+	<span ex:color="#9400D3">Glassco, John - infatuated</span>
+    
+	<span ex:color="#9400D3">Glassco, John - favoured areas</span>
+    
+	<span ex:color="#9400D3">Glassco, John - 'out of bounds' Paris</span>
+    
+	<span ex:color="#9400D3">Glassco, John - homeless</span>
+    
+    <span ex:color="#9400D3">Glassco, John - ideal Paris</span>
+
+    <span ex:color="#DAA520">Stein, Gertrude</span>
+
+<span ex:color="#8A1900">Taylor, Graeme</span>
+
+    <span ex:color="#FF198C">Beach, Sylvia</span>
+
+
+
+<span ex:color="#FF4919">Barnes, Djuna</span>
+
+
+
+<span ex:color="#19BAFF">Pound, Ezra</span>
+
+
+
+    <span ex:color="red">Callaghan, Morley</span>
+
+
+
+    <span ex:color="#9CD157">Stead, Christina</span>
+    
+        <span ex:color="#9CD25D">Bardamu, Ferdinand</span>
+
+    <span ex:color="#FF0167">Dior, Christian</span>
+    
+        <span ex:color="#333333">Gainsbourg, Serge</span>
+        
+            <span ex:color="#FFCC99">Dali, Salvador</span>
+
+
+
+    <span ex:color="#556B2F">Livesay, Dorothy</span>
+
+
+
+    <span ex:color="#00FFFF">Cunard, Nancy</span>
+
+
+
+	<span ex:color="#8B4513">Hemingway, Ernest</span>
+
+
+
+
+	<span ex:color="blue">Joyce, James</span>
+
+
+
+    <span ex:color="black">McAlmon, Robert</span>
+
+<span ex:color="#2C6D3B">Moore, George</span>
+
+    <span ex:color="#EBBCD4">Rhys, Jean</span>
+    
+    <span ex:color="#B896C0">Baker, Josephine</span>
+    
+    <span ex:color="#171A4F">Dos Passos, John</span>
+    
+    <span ex:color="#A2B503">Barney, Natalie</span>
+    
+    <span ex:color="#A4FB83">Breton, André</span>
+    
+    <span ex:color="#843949">Vogel, Lucien</span>
+    
+    <span ex:color="#5A873B">Bergson, Henri</span>
+    
+       <span ex:color="#07D55B">Ford, Ford Madox</span>
+       
+       <span ex:color="#ECF934">Fitzgerald, F. Scott</span>
+
+    <span ex:color="#87CEFA" ex:case="missing">Not Specified</span> </div><!--This is the color coder that controls which colors the people come up on the timeline. In addition to this, I had to add the ex:colorCoder="Person-colors" line to the Timeline view below. The ex:colorKey=".Person" has to be in there as well. But if you haven't specified colors, then Exhibit defaults to its own scheme.-->
+
+
+
+
+
+
+
+<div ex:role="coder" ex:coderClass="Color" id="decade-colors">
+
+
+
+<!-- I didn’t use these extra decades:
+
+
+
+    <span ex:color="#DAA520">1860s</span>
+
+
+
+    <span ex:color="red">1870s</span>
+
+
+
+    <span ex:color="#556B2F">1880s</span>
+
+
+
+-->
+
+
+
+
+
+    <span ex:color="#00FFFF">1890s</span>
+
+
+
+	<span ex:color="#8B4513">1900s</span>
+
+
+
+	<span ex:color="#9400D3">1910s</span>
+
+
+
+	<span ex:color="black">1920s</span>
+
+
+
+	<span ex:color="#F272F4">1930s</span>
+
+
+
+
+
+	<span ex:color="#8299FF">1940s</span>
+
+
+
+	<span ex:color="#4B6478">1950s</span>
+
+
+
+	<span ex:color="#FF3300">1960s</span>
+
+
+
+	<span ex:color="#006666">1970s</span>
+
+
+
+	<span ex:color="#FF9966">1980s</span>
+
+
+
+<!-- I didn’t use these extra decades:
+
+
+
+	<span ex:color="#33FF99">1990s</span>
+
+
+
+	<span ex:color="#26448C">2000s</span>
+
+
+
+    <span ex:color="#33E418">2010s</span>
+
+
+
+-->
+
+
+
+    <span ex:color="#87CEFA" ex:case="missing">Not Specified</span> </div><!--This is the color coder that controls which colors the events come up on the MAP. It's working on the decades in the spreadsheet, rather than the event type. If I wanted to stick with coloring according to event type, then I could have used the same color coder in both places. -->
+
+
+
+
+
+
+
+<table width="100%" cellspacing="20"><tr valign="top"><!--This and the <td> code below if tell the page to put the timeline into a table. I have to do this in order to get the search box to display next to it as a second element of the table. -->
+
+
+
+	<td>
+
+
+
+		<div ex:role="viewPanel"><!--Adding this line and the extra div layer allows you to choose between the following views. If you don't include it then you just get all the views on one page. -->
+
+
+
+	<div ex:role="view" 
+
+
+
+				     ex:viewClass="Map" 
+
+
+
+					 ex:label="Map"
+
+
+
+					 ex:latlng=".LatLng"
+
+
+
+					 ex:center="48.8616, 2.3514"
+
+
+
+                     			ex:zoom="12"
+
+
+
+					 ex:colorKey=".Person"
+
+
+
+				 	ex:colorCoder="Person-colors">
+
+
+
+                     
+
+
+
+        	<div ex:role="lens">
+
+
+
+ 		<b ex:content=".label"></b><p>
+
+
+
+ 		<p ex:content=".description"></p>
+
+		
+
+		<p ex:content=".bibref"></p>
+
+
+
+<br /> <br /> <br />
+
+ 		<i ex:content=".initials"></i>
+
+
+
+	</div>
+
+
+
+                     
+
+
+
+		</div><!--This instantiates the Map view.-->
+
+
+
+			<div ex:role="view" 
+
+
+
+				 ex:viewClass="Timeline" 
+
+
+
+				 ex:start=".start"
+
+
+
+				 ex:end=".end"
+
+
+
+				 ex:colorKey=".Person"
+
+
+
+				 ex:colorCoder="Person-colors"
+                 
+
+
+
+				 ex:topBandUnit="year"
+
+
+
+				 ex:bubbleWidth="500"
+
+
+
+				 ex:bubbleHeight="500"
+
+
+
+				 ex:topBandPixelsPerUnit="200">
+
+
+
+                 
+
+
+
+                 	<div ex:role="lens"><!--Adding this one line moves us from ugly output when clicking on an event to the nice bubble. I'm pretty sure that I could use "class" to name the lens, in case I'd specified something in an earlier script for it. The lines that follow it determine what information from the spreadsheet appears in the bubble and how that information gets formatted.-->
+
+
+
+ 		<b ex:content=".label"></b><p>
+
+
+
+ 		<img ex:src-content=".image"><p>
+
+
+
+ 		<p ex:content=".description"></p>
+
+		
+
+		<p ex:content=".bibref"></p>
+
+
+
+<br /> <br />
+
+ 		<i ex:content=".initials"></i>
+
+
+
+	</div><!--I've moved the lens here to be within the timeline view. This will allow me to have more than one view-->
+
+
+
+                 
+
+
+
+			</div> <!--This instantiates the Timeline view. The ex:start value tells the timeline to look to the "start:date" column for when to create the event. The ex:end value tells it to look to the "end:date" field for when events end (IF they have duration. They don't need to.) The ex:colorKey value tells the timeline to color people according to the "Person" field. The ex:colorCoder value tells the html to look to the colorCoder I specified above (where the value is the same as the id for the particular colors to use for the events. The ex:timelineConstructor value tells timeline to look for the script (see above) for the timeline theme. The ex:topBandUnit value tells the timeline what time unit the top band should be divided by. Look at http://simile.mit.edu/wiki/Exhibit/2.0/Timeline_View for the different possible values. You could also specify an ex:bottomBandUnit line to tell it what unit you want the bottom band to have. The ex:bubbleWidth and ex:bubbleHeight values tell the timeline how big to make the bubbles that pop up from each event. The ex:topBandPixelsPerUnit value tells the timeline how far apart to space the top band's units. For more controls,see http://simile.mit.edu/wiki/Exhibit/2.0/Timeline_View. The timelineConstructor script makes some of the choices that I have made here invalid, such as the topBandUnit.-->
+
+
+
+		
+
+
+
+		
+
+
+
+	</div>
+
+
+
+
+
+
+
+		
+
+
+
+		 <p>
+
+
+
+		 <center>
+
+
+
+		 <p>Site by <a href="http://www.aelang.net/">Anouk Lang</a>,
+
+
+
+		 Honorary Research Fellow in the <a href="http://www.uscanada.bham.ac.uk/">Dept of American and Canadian Studies</a> at the <a href="http://www.birmingham.ac.uk/">University of Birmingham</a>, UK.<br>
+
+
+
+Adapted from <a href="http://www.briancroxall.net/">Brian Croxall’s</a> <a href="http://www.briancroxall.net/timelines/AmericanSurveyTimeline2010.html">"American Century" Geospatial Timeline</a> and a project by <a href="http://www.jbj.wordherders.net">Jason Jones</a>, Associate Professor of English at Central Connecticut State University. Thanks also to <a href=" http://chronicle.com/blogs/profhacker/">ProfHacker</a>.<br>
+
+
+
+<p>Powered by the <a href="http://www.simile-widgets.org/">SIMILE</a> project's <a href="http://www.simile-widgets.org/exhibit/">Exhibit</a> and <a href="http://www.simile-widgets.org/timeline/">Timeline</a> scripts.<br />
+I am grateful to the <a href="http://www.canadian-studies-uk.org/" target="_blank">Foundation for Canadian Studies in the   United Kingdom</a> for its support for this project.</p>
+
+
+
+      </center><p>
+
+
+
+
+
+
+
+         
+
+
+
+         <!--This obviously generates the text under the timeline. We can move this anywhere or change it however we want.-->
+
+
+
+	</td>
+
+
+
+ 	
+
+
+
+	<td width="20%">
+
+
+
+		<div ex:role="facet" ex:facetClass="TextSearch" ex:facetLabel="Search"></div><!--Inserting this line creates the text search box. If I only want to limit the search to one or more sections of the spreadsheet, then I could use ex:expressions=".label". I could add additional values by separating with commas.-->
+
+
+
+		<div ex:role="facet" ex:expression=".Person" ex:facetLabel="Individual"></div><!--This adds the search boxes you can use to sort/limit people. You can add as many of the boxes as you like, just change what the value of the ex:expression field is to the name of your Google spreadsheet column annd separate the different column names by commas (i.e., ".Person",".example",".chicken"). The title of the search box on the website is set as the value of ex:facetLabel. -->
+
+
+
+		<div ex:role="facet" ex:expression=".decade" ex:facetLabel="Decade"></div>
+
+
+
+	</td>
+
+
+
+	</tr>
+
+
+
+</table>		
+
+
+
+		
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+	
