@@ -18,7 +18,7 @@ My [interactive map of modernist Paris](../glassco.htm) used the SIMILE projectâ
 -------
 <br />
 
-<a href="https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map"><img style="float:right;border:10px solid white" src="/CartoDynamiter.png"></a>
+<a href="https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map"><img style="float:right;border:10px solid white" src="/CartoDynamiter.png" width="390" height="266"></a>
 This [dynamic map](https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map) was created with [CartoDB](https://carto.com/) and shows the locations in Robert Louis Stevenson and Fanny van der Grift Stevenson's novella *The Dynamiter* as the narrative progresses. My postgraduate Digital Humanities students helped to gather and code the data: the darker orange the dot, the more heightened the emotion associated with that place.
  
 
