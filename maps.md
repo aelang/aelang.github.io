@@ -11,15 +11,14 @@ My [interactive map of modernist Paris](../glassco.htm) used the SIMILE projectâ
 -------
 <br />
 
-The [dynamic map](https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map) below (which may take a few moments to load) was created with [CartoDB](https://carto.com/) and shows the locations in Robert Louis Stevenson and Fanny van der Grift Stevenson's novella *The Dynamiter* as the narrative progresses. My postgraduate Digital Humanities students helped to gather and code the data: the darker orange the dot, the more heightened the emotion associated with that place.
+<a href="http://www.aelang.net/projects/McLeod_map.html"><img style="float:left;border:10px solid white" src="/McLeodMap.png"></a>
+	<br />[This map](http://www.aelang.net/projects/McLeod_map.html) of the locations in the final section of Alistair McLeodâ€™s *No Great Mischief* was built as an experiment to practise D3.js. 
 
 <br />
 -------
 <br />
 
-http://www.aelang.net/projects/McLeod_map.html
-<iframe width="100%" height="520" frameborder="0" src="https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
- 
+The [dynamic map](https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map) below (which may take a few moments to load) was created with [CartoDB](https://carto.com/) and shows the locations in Robert Louis Stevenson and Fanny van der Grift Stevenson's novella *The Dynamiter* as the narrative progresses. My postgraduate Digital Humanities students helped to gather and code the data: the darker orange the dot, the more heightened the emotion associated with that place.
  
  
 <br />
