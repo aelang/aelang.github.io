@@ -13,7 +13,7 @@ My [interactive map of modernist Paris](../glassco.htm) used the SIMILE project�
 
 
 <a href="https://aelang.github.io/McLeod_map.html"><img style="float:left;border:10px solid white" src="/McLeodMap.png"></a>
-<br />[This map](../McLeod_map.html) of the locations in the final section of Alistair McLeod’s *No Great Mischief* was built as an experiment to practise D3.js. If you’ve read this book and wondered what it is like to cross the Canso Causeway in a storm, find the Canso Causeway on the map, zoom in, and click on the book icon.
+<br />[This map](../McLeod_map.html) of the locations in the final section of Alistair McLeod’s *No Great Mischief* was built as an experiment to practise D3.js.
 
 <br />
 -------
