@@ -11,17 +11,12 @@ My [interactive map of modernist Paris](../glassco.htm) used the SIMILE project�
 -------
 <br />
 
-
-<a href="https://aelang.github.io/McLeod_map.html"><img style="float:left;border:10px solid white" src="/McLeodMap.png"></a>
-<br />[This map](../McLeod_map.html) of the locations in the final section of Alistair McLeod’s *No Great Mischief* was built as an experiment to practise D3.js.
+The [dynamic map](https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map) below (which may take a few moments to load) was created with [CartoDB](https://carto.com/) and shows the locations in Robert Louis Stevenson and Fanny van der Grift Stevenson's novella *The Dynamiter* as the narrative progresses. My postgraduate Digital Humanities students helped to gather and code the data: the darker orange the dot, the more heightened the emotion associated with that place.
 
 <br />
 -------
 <br />
 
-The [dynamic map](https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/public_map) below (which may take a few moments to load) was created with [CartoDB](https://carto.com/) and shows the locations in Robert Louis Stevenson and Fanny van der Grift Stevenson's novella *The Dynamiter* as the narrative progresses. My postgraduate Digital Humanities students helped to gather and code the data: the darker orange the dot, the more heightened the emotion associated with that place.
-
-<br />
 http://www.aelang.net/projects/McLeod_map.html
 <iframe width="100%" height="520" frameborder="0" src="https://aelang.carto.com/viz/e6061054-2ae8-11e5-865a-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
  
@@ -29,6 +24,7 @@ http://www.aelang.net/projects/McLeod_map.html
  
 <br />
 -------
+<br />
 
 And two visualisations of the places referred to Lilian Pizzichini’s biography of Jean Rhys, *The Blue Hour*, which my undergraduate Digital Humanities students helped to gather the data for:
 
