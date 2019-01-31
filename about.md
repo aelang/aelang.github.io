@@ -13,11 +13,6 @@ I grew up in Australia and originally started out as a musician, doing a B.Mus a
 <br />
 
 
-#### About this site
-
-This site functions as my personal website, as a repository for the digital projects I build, and also occasionally as the blog for students in my Digital Humanities for Literary Studies class, in which I ask them to blog and tweet regularly about what they are learning and relevant resources they discover over the course of the class. So, during the semester, you may see interesting posts from people other than me pop up on the main page.
-
-
 Contact me at **anouk hop at cantab skip dot net jump** [remove the three verbs]
 
 
