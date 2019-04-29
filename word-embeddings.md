@@ -5,9 +5,6 @@ permalink: /research/word-embeddings/
 order: 1
 ---
 
-### Word embedding models: A very quick introduction
-
-<br />
 
 Word embedding models may be old news for computer scientists in the field of machine learning, but the excitement they are generating among digital humanities scholar is still quite effervescent. Formally published research by literary scholars on the topic is, however, still comparatively thin on the ground, though I'm aiming to do my bit towards rectifying that in an article forthcoming in a *Modernism/Modernity* [Print Plus](https://modernismmodernity.org/about) cluster which explores various ways that word embeddings can be used with periodicals. In the meantime, though, I find myself increasingly in need of a brief and non-mystificatory introduction to the concept to which I can direct literary researchers and other humanities folks, so I'm parking one here.
 
