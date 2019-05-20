@@ -7,7 +7,7 @@ order: 1
 
 ### Research projects
 
-#### [Word embedding models: A very quick introduction](../word-embeddings)
+#### [Word embedding models: A very short introduction](../word-embeddings)
 A brief introduction to word embedding models, designed for literary researchers and those in related fields.
 
 #### [Patrick Twite](https://twitter.com/patricktwite)
