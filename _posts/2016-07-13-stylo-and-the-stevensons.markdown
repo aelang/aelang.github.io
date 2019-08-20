@@ -73,17 +73,17 @@ Seeking comparators to understand what these signals might tell us about Fanny a
 
 #### The Wrong Box
 
-/Wrong100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"></a>
+<a href="https://aelang.github.io/Wrong100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"></a>
 	<br />
  
 *The Wrong Box, 100 to 1000 MFW, classic Delta distance, 5000w slices, 4500w overlap*
 
-/Wrong100To1000MFWRollNSC5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100To1000MFWRollNSC5000-per-sliceFadeLooping.gif"></a>
+<a href="https://aelang.github.io/Wrong100To1000MFWRollNSC5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100To1000MFWRollNSC5000-per-sliceFadeLooping.gif"></a>
 	<br />
  
 *The Wrong Box, 100 to 1000 MFW, NSC, 5000w slices, 4500w overlap*
 
-Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
+<a href="https://aelang.github.ioWrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
 	<br />
  
 *The Wrong Box, 100 to 1000 MFW, SVM, 5000w slices, 4500w overlap*
