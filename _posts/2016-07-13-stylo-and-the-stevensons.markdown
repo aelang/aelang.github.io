@@ -13,9 +13,18 @@ Using these rolling classification scripts, I generated some graphs that give a 
 
 #### The Dynamiter
  
+<a href="https://aelang.github.io/Dyn100to1000MFWRollDelta4000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Dyn100to1000MFWRollDelta4000-per-sliceFadeLooping.gif"></a>
+	<br />
+ 
 *The Dynamiter, 100 to 1000 MFW, classic Delta distance, 4000w slices, 3500w overlap*
+
+<a href="https://aelang.github.io/Dyn100to1000MFWRollNSC4000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Dyn100to1000MFWRollNSC4000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Dynamiter, 100 to 1000 MFW, NSC, 4000w slices, 3500w overlap*
+
+<a href="https://aelang.github.io/Dyn100to1000MFWRollSVM4000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Dyn100to1000MFWRollSVM4000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Dynamiter, 100 to 1000 MFW, SVM, 4000w slices, 3500w overlap*
 
@@ -30,25 +39,52 @@ Seeking comparators to understand what these signals might tell us about Fanny a
 
 #### The Wrecker
  
+<a href="https://aelang.github.io/Wreck100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wreck100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"></a>
+	<br /> 
+ 
 *The Wrecker, 100 to 1000 MFW, classic Delta distance, 5000w slices, 4500w overlap*
+
+<a href="https://aelang.github.io/Wreck100to1000MFWRollNSC5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wreck100to1000MFWRollNSC5000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Wrecker, 100 to 1000 MFW, NSC, 5000w slices, 4500w overlap*
+
+<a href="https://aelang.github.io/Wreck100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wreck100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Wrecker, 100 to 1000 MFW, SVM, 5000w slices, 4500w overlap*
 
 #### The Ebb Tide
  
+<a href="https://aelang.github.io/Ebb100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Ebb100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"></a>
+	<br />
+ 
 *The Ebb Tide, 100 to 1000 MFW, classic Delta distance, 5000w slices, 4500w overlap*
  
+<a href="https://aelang.github.io/Ebb100to1000MFWRollNSC5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Ebb100to1000MFWRollNSC5000-per-sliceFadeLooping.gif"></a>
+	<br />
+ 
 *The Ebb Tide, 100 to 1000 MFW, NSC, 5000w slices, 4500w overlap*
+
+<a href="https://aelang.github.io/Ebb100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Ebb100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Ebb Tide, 100 to 1000 MFW, SVM, 5000w slices, 4500w overlap*
 
 #### The Wrong Box
+
+/Wrong100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollDelta5000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Wrong Box, 100 to 1000 MFW, classic Delta distance, 5000w slices, 4500w overlap*
+
+/Wrong100To1000MFWRollNSC5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100To1000MFWRollNSC5000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Wrong Box, 100 to 1000 MFW, NSC, 5000w slices, 4500w overlap*
+
+Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
+	<br />
  
 *The Wrong Box, 100 to 1000 MFW, SVM, 5000w slices, 4500w overlap*
 
