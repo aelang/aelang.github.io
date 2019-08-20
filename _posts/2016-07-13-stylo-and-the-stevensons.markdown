@@ -83,7 +83,7 @@ Seeking comparators to understand what these signals might tell us about Fanny a
  
 *The Wrong Box, 100 to 1000 MFW, NSC, 5000w slices, 4500w overlap*
 
-<a href="https://aelang.github.ioWrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
+<a href="https://aelang.github.io/Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"><img style="float:left;border:10px solid white" src="/Wrong100to1000MFWRollSVM5000-per-sliceFadeLooping.gif"></a>
 	<br />
  
 *The Wrong Box, 100 to 1000 MFW, SVM, 5000w slices, 4500w overlap*
