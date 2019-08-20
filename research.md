@@ -16,6 +16,9 @@ A bot which tweets out Markov chain-generated chunks of prose redolent of the Au
 
 ### Funded projects
 
+#### [Encoding the Vandergrifter](https://robynpritzker.github.io/encodingthevandegrifter/)
+A digital edition of four unpublished stories by Fanny Van der Grift Stevenson, discovered in the archives by Robyn Pritzker, who did her PhD under my supervision on Fanny Stevenson's short fiction. Includes both TEI-encoded XML files and plain text versions, along with scholarly apparatus, all of which was done by Robyn. Funder: [The Centre for Data, Culture and Society, University of Edinburgh](https://www.cdcs.ed.ac.uk/).
+
 #### [Working from Scraps](http://digitaldecoupage.llc.ed.ac.uk)
 This project, conceptualised by [Bridget Moynihan](https://www.ed.ac.uk/profile/bridget-moynihan) (Edinburgh) as part of her PhD research and built by her and [Jonathan Armoza](https://github.com/jarmoza/) (NYU), produced a digital prototype based on selections from the Edwin Morgan Scrapbooks. Employing information visualisation principles to convey the thematic and semantic richness of the scrapbooks while avoiding breaching copyright, the project aimed to bring out as many of the elements of the Morgan scrapbooks as possible: their networked qualities, the manifold resonances between images and scraps of texts, the structure of individual pages and the semantic relationships and thematic preoccupations visible across the scrapbooks as a whole. Funder: [The Carnegie Trust](https://www.carnegie-trust.org/).
 
