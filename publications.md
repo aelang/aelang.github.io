@@ -14,6 +14,8 @@ Anouk Lang, ed. [*From Codex to Hypertext: Reading at the Turn of the Twenty-Fir
 
 #### **Single-authored peer-reviewed journal articles**
 
+["Spatial Dialectics: Pursuing Geospatial Imaginaries with Word Embedding Models and Mapping."](https://modernismmodernity.org/forums/posts/spatial-dialectics) *Modernism/Modernity Print Plus* 4.2 (July 2019). 
+
 [“Visual Provocations: Using GIS Mapping to Explore Witi Ihimaera’s *Dear Miss Mansfield*.”](http://eds.b.ebscohost.com.ezproxy.is.ed.ac.uk/ehost/detail/detail?vid=2&sid=4db81fa4-bda5-496b-9bab-337c7f6a6ade%40sessionmgr112&hid=127&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=hlh&AN=99015010) *ELN: English Language Notes* 52.1 (Spring/Summer 2014): 67-80.
 
 [“Going Against the Flow: *The Secret River* and Colonialism’s Structuring Oppositions.”](http://postcolonial.org/index.php/pct/article/viewFile/1670/1679) *Postcolonial Text* 9.1 (2014): 1-16.
