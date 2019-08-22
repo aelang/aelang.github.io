@@ -11,8 +11,8 @@ My [interactive map of modernist Paris](../glassco.htm) used the SIMILE project�
 -------
 <br />
 
-<a href="http://www.aelang.net/projects/McLeod_map.html"><img style="float:left;border:10px solid white" src="/McLeodMap.png"></a>
-	<br />[This map](http://www.aelang.net/projects/McLeod_map.html) of the locations in the final section of Alistair McLeod’s *No Great Mischief* was built as an experiment to practise D3.js. 
+<a href="/McLeod_map.html"><img style="float:left;border:10px solid white" src="/McLeodMap.png"></a>
+	<br />[This map](http://aelang.github.io/McLeod_map.html) of the locations in the final section of Alistair McLeod’s *No Great Mischief* was built as an experiment to practise D3.js. 
 
 <br />
 -------
