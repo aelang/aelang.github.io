@@ -10,6 +10,9 @@ order: 1
 #### [Word embedding models: A very short introduction](../word-embeddings)
 A brief introduction to word embedding models, designed for literary researchers and those in related fields.
 
+#### [The Data-Sitters Club](https://datasittersclub.github.io/site/)
+An ongoing collaboration with Quinn Dombrowski (Stamford), Lee Skallerup Bessette (Georgetown), Katia Bowers (UBC), Maria Cecire (Bard) and Roopika Risam (Salem State) wihch uses the mass-market YA series The Baby-Sitters Club, which was popular in the 1980s and 90s, as a way to help introduce newcomers to digital humanities to the basics of computational text analysis. The idea, as explained by ~~Kirsty~~ Quinn, is ["to apply the computational tools and methods that are widely used in the digital humanities text analysis community to the BSC corpus, making visible all the steps and decisions that shape that path", and "to write the whole thing up in a series of detailed but colloquial posts that could serve as a guidebook for fellow travelers."](https://datasittersclub.github.io/site/dsc1/)
+
 #### [Patrick Twite](https://twitter.com/patricktwite)
 A bot which tweets out Markov chain-generated chunks of prose redolent of the Australian novelist Patrick White. No funder, just for fun :)
 
