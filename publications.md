@@ -54,9 +54,9 @@ Anouk Lang, ed. [*From Codex to Hypertext: Reading at the Turn of the Twenty-Fir
 
 “Queering Sarsaparilla: Patrick White’s Deviant Modernism.” In Ian Henderson and Anouk Lang, eds., *Patrick White Beyond the Grave: New Critical Perspectives*. London: Anthem Press, 2015. 193-204.
 
-With David E. Hubbard, Kathleen Reed, Anelise Hanson Shrout and Lyndsay D. Troyer. “*Isis*: Mapping the Geospatial and Topical Distribution of a History of Science Journal”. Case study in Katy Börner and Ted Polley,* Visual Insights: A Practical Guide to Making Sense of Data*. Boston: MIT Press, 2014. 260-265.
+With David E. Hubbard, Kathleen Reed, Anelise Hanson Shrout and Lyndsay D. Troyer. “*Isis*: Mapping the Geospatial and Topical Distribution of a History of Science Journal”. Case study in Katy Börner and Ted Polley, *Visual Insights: A Practical Guide to Making Sense of Data*. Boston: MIT Press, 2014. 260-265.
 
-“Reading at the Turn of the Twenty-First Century”. Introduction to Anouk Lang, ed.,* From Codex to Hypertext: Reading at the Turn of the Twenty-First Century. *Amherst, MA: University of Massachusetts Press, 2012. 1-24.
+“Reading at the Turn of the Twenty-First Century”. Introduction to Anouk Lang, ed., *From Codex to Hypertext: Reading at the Turn of the Twenty-First Century.* Amherst, MA: University of Massachusetts Press, 2012. 1-24.
 
 (Invited) “Explicating Explications: Researching Contemporary Reading.” In Bonnie Gunzenhauser, ed., *Reading in History: New Methodologies from the Anglo-American Tradition*. London: Pickering & Chatto, 2010. 119-133.
 
