@@ -5,7 +5,7 @@ date:   2020-04-16 13:50:41 +0100
 categories: blog
 ---
 
-<a href="https://datasittersclub.github.io/site/"><img style="float:center;border:10px solid white" src="/DSClogo.png" /></a>
+<a href="https://datasittersclub.github.io/site/"><img style="float:center;size:50%" src="/DSClogo.png" /></a>
 
 For the past few years I have acted as a "data host" for Benjamin Bach & Dave Murray-Rust's annual [Data Fair](https://sites.google.com/view/datafairs/home), which they run for students on the MSc in Design Informatics here at Edinburgh. This involves bringing a dataset (or two or three) for a small group of students to work with, and producing a 'data brief' which explains the form and extent of the dataset, why it is interesting, particular challenges they may encounter while working with it and so forth. The students start by analysing the dataset and then must find ways to visualise it and tell the 'data stories' within it, in consultation with the data host who as the domain expert can help to orient them to the most interesting findings. 
 
