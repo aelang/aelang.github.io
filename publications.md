@@ -6,6 +6,8 @@ order: 2
 ---
 #### **Books**
 
+Gabriel Hankins, Anouk Lang and Simon Appleford, eds. [*Digital Futures of Graduate Study in the Humanities*.](https://dhdebates.gc.cuny.edu/projects/digital-futures-of-graduate-study-in-the-humanities) Minneapolis, MN: University of Minnesota Press, 2024.
+
 Ian Henderson and Anouk Lang, eds. [*Patrick White Beyond the Grave: New Critical Perspectives*.](http://www.anthempress.com/patrick-white-beyond-the-grave) London: Anthem Press, 2015.
 
 Anouk Lang, ed. [*From Codex to Hypertext: Reading at the Turn of the Twenty-First Century*.](http://www.umass.edu/umpress/title/codex-hypertext) Amherst, MA: University of Massachusetts Press, 2012.
@@ -16,7 +18,7 @@ Anouk Lang, ed. [*From Codex to Hypertext: Reading at the Turn of the Twenty-Fir
 
 ["Spatial Dialectics: Pursuing Geospatial Imaginaries with Word Embedding Models and Mapping."](https://modernismmodernity.org/forums/posts/spatial-dialectics) *Modernism/Modernity Print Plus* 4.2 (July 2019). 
 
-[“Visual Provocations: Using GIS Mapping to Explore Witi Ihimaera’s *Dear Miss Mansfield*.”](http://eds.b.ebscohost.com.ezproxy.is.ed.ac.uk/ehost/detail/detail?vid=2&sid=4db81fa4-bda5-496b-9bab-337c7f6a6ade%40sessionmgr112&hid=127&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=hlh&AN=99015010) *ELN: English Language Notes* 52.1 (Spring/Summer 2014): 67-80.
+[“Visual Provocations: Using GIS Mapping to Explore Witi Ihimaera’s *Dear Miss Mansfield*.”](https://doi.org/10.1215/00138282-52.1.67) *ELN: English Language Notes* 52.1 (Spring/Summer 2014): 67-80.
 
 [“Going Against the Flow: *The Secret River* and Colonialism’s Structuring Oppositions.”](http://postcolonial.org/index.php/pct/article/viewFile/1670/1679) *Postcolonial Text* 9.1 (2014): 1-16.
 
