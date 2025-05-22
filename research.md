@@ -7,7 +7,7 @@ order: 1
 
 ### Digital projects
 
-#### [Word embedding models: A very short introduction](../word-embeddings)
+#### [Word embedding models: A very short introduction](../research/word-embeddings)
 A brief introduction to word embedding models, designed for literary researchers and those in related fields.
 
 #### [The Data-Sitters Club](https://datasittersclub.github.io/site/)
