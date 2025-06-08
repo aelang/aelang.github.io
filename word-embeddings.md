@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Word embeddings"
+title:
 permalink: /research/word-embeddings/
 order: 1
 ---
