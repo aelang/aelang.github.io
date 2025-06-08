@@ -1,14 +1,14 @@
 ---
 layout: page
-title:
+title: Plot-spaces
 permalink: /research/plot-spaces/
-order:
+order: 2
 ---
 #### Plot-spaces: 3D-fabricated objects to think with
 
 
 
-<img style="float:right;border:10px solid white" src="/IDwell_02Med.jpg"> “you build something so that you can think with that thing” – Sara Hendren, ["Now It Springs Up!" Undefended / Undefeated, 21 May 2025](https://sarahendren.substack.com/p/now-it-springs-up).
+<img style="float:right;border:10px solid white" src="/IDwell_02Med.jpg"> “you build something so that you can think with that thing” – Sara Hendren, ["Now It Springs Up!" *undefended / undefeated*, 21 May 2025](https://sarahendren.substack.com/p/now-it-springs-up).
 
 
 Hendren's talking specifically about prototyping as a way of thinking, but her point applies to things beyond prototypes.
