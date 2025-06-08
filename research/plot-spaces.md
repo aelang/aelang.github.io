@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Plot-spaces
+title:
 permalink: /research/plot-spaces/
 order: 2
 ---
