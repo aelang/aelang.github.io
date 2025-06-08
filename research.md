@@ -7,8 +7,8 @@ order: 1
 
 ### Digital projects
 
-#### [Plot-spaces: Thinking through space and scale with 3D printing)](../research/plot-spaces)
-Experiments which use 3D printing and milling to build objects for thinking about spatial and scalar shifts in poetry.
+#### [Plot-spaces: Thinking through space and scale with 3D printing](../research/plot-spaces)
+Experiments which use 3D printing and milling to build objects for thinking about spatial and scalar shifts in poetry. Plus a tutorial for those wanting a plot-space of their own!
 
 #### [Word embedding models: A very short introduction](../research/word-embeddings)
 A brief introduction to word embedding models, designed for literary researchers and those in related fields.
