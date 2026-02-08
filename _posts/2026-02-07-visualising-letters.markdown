@@ -4,7 +4,7 @@ title:  "Making the most of your metadata: Visualising literary correspondence"
 date:   2026-02-07 16:55:22 +0100
 categories: blog
 ---
-<a href="https://aelang.github.io/letters/"><img style="float:right;border:10px solid white" src="/AustWomensLettersPolybiusScreenshot.png"/></a>
+<a href="https://aelang.github.io/letters/"><img style="float:right;border:10px solid white" src="/AustWomensLettersPolybiusSmlScreenshot.png"/></a>
 
 As an undergraduate I read [*As Good As a Yarn With You*](https://www.cambridge.org/gb/universitypress/subjects/literature/english-literature-general-interest/good-yarn-you-letters-between-miles-franklin-katharine-susannah-prichard-jean-devanny-marjory-barnard-flora-eldershaw-and-eleanor-dark?format=PB&isbn=9780521576338), Carole Ferrier's weighty collection of letters gathered from the archives of six Australian literary women who corresponded with each other in the middle decades of the twentieth century. It stayed with me as a powerful record of the sheer weight of what these women struggled against - wartime paper shortages, the drudgery of earning a living from the clerical positions open to them, the time lost to caretaking and domestic duties expected by male relatives, an Australian literary establishment geared to celebrating the opinions and consolidating the authority of men, especially those with university positions and editorial responsibilities - as they sustained a sense of themselves as writers, honed their craft, supported each other and carried out the work of building an Australian literary culture through the relatively few institutions open to them, such as the Fellowship of Australian Writers.  
 
